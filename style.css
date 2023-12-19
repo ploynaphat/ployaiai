@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color:#3EB489 ;
 }
 
 html {
@@ -46,13 +47,13 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
-  color: grey;
+  color: rgb(128, 128, 128);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -60,6 +61,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  color: white;
 }
 
 .logo:hover {
@@ -176,6 +178,11 @@ section {
   margin: auto 0;
 }
 
+.img-1 {
+  border-radius: 50%;
+  width: 400PX;
+}
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -197,6 +204,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  color: white;
 }
 
 #socials-container {
